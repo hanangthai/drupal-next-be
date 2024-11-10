@@ -1,0 +1,24 @@
+uuid: 226b9bd2-3b6c-474a-8abf-3487400b99ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_values
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.core_values
+  module:
+    - text
+id: paragraph.core_values.field_values
+field_name: field_values
+entity_type: paragraph
+bundle: core_values
+label: Values
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

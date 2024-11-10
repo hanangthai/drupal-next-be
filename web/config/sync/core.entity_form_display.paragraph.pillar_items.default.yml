@@ -1,0 +1,33 @@
+uuid: f538b1ef-5c06-4054-ab54-b26ff32d26d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pillar_items.field_pillar_icon
+    - field.field.paragraph.pillar_items.field_pillar_text
+    - paragraphs.paragraphs_type.pillar_items
+  module:
+    - media_library
+id: paragraph.pillar_items.default
+targetEntityType: paragraph
+bundle: pillar_items
+mode: default
+content:
+  field_pillar_icon:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_pillar_text:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

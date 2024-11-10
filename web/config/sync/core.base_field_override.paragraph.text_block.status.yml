@@ -1,0 +1,22 @@
+uuid: 6d620525-15e3-48e1-bb2d-a71a2f140df2
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.text_block
+id: paragraph.text_block.status
+field_name: status
+entity_type: paragraph
+bundle: text_block
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,10 @@
+uuid: 25a764a7-5f4a-44d1-ab93-fcfce6c872b5
+langcode: en
+status: true
+dependencies: {  }
+id: core_values
+label: 'Core values'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

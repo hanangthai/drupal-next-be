@@ -1,0 +1,19 @@
+uuid: eeaa5aa3-5773-4115-95ce-0b49aadea910
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pillar_text
+    - paragraphs.paragraphs_type.pillar_items
+id: paragraph.pillar_items.field_pillar_text
+field_name: field_pillar_text
+entity_type: paragraph
+bundle: pillar_items
+label: 'Pillar text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

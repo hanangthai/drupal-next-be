@@ -1,0 +1,14 @@
+uuid: 1ee1f5f0-6e47-43ea-ad96-49fafccc8ead
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - hanangthai@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

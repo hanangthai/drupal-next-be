@@ -1,0 +1,10 @@
+uuid: 52e6eb6f-0036-4165-92e2-492c75d0de7e
+langcode: en
+status: true
+dependencies: {  }
+id: pillar_items
+label: 'Pillar items'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

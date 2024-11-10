@@ -1,0 +1,19 @@
+uuid: cdc3cf08-a06d-4267-9611-b05b1f9bef5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_values
+field_name: field_values
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

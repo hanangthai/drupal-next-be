@@ -1,0 +1,10 @@
+uuid: 56523590-aca5-4ada-9b1f-e0d5c2d14c34
+langcode: en
+status: true
+dependencies: {  }
+id: pillars
+label: Pillars
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,23 @@
+uuid: 500425ec-21e6-4153-a61f-3ee2b7a988bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_position
+    - paragraphs.paragraphs_type.highlight
+  module:
+    - options
+id: paragraph.highlight.field_image_position
+field_name: field_image_position
+entity_type: paragraph
+bundle: highlight
+label: 'Image position'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: right
+default_value_callback: ''
+settings: {  }
+field_type: list_string

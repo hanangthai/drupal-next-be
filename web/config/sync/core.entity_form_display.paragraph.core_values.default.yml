@@ -1,0 +1,43 @@
+uuid: 0197d595-5704-425f-9c8d-9cebb2f0a3a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.core_values.field_description
+    - field.field.paragraph.core_values.field_title
+    - field.field.paragraph.core_values.field_values
+    - paragraphs.paragraphs_type.core_values
+  module:
+    - text
+id: paragraph.core_values.default
+targetEntityType: paragraph
+bundle: core_values
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_values:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,31 @@
+uuid: d6104bd9-0c2f-449e-9571-199c873da8b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pillar_items.field_pillar_icon
+    - field.field.paragraph.pillar_items.field_pillar_text
+    - paragraphs.paragraphs_type.pillar_items
+id: paragraph.pillar_items.default
+targetEntityType: paragraph
+bundle: pillar_items
+mode: default
+content:
+  field_pillar_icon:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_pillar_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
