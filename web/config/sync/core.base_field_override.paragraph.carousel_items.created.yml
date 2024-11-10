@@ -1,0 +1,18 @@
+uuid: f234b9b3-56b7-44bd-8cd3-2b5238952a76
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.carousel_items
+id: paragraph.carousel_items.created
+field_name: created
+entity_type: paragraph
+bundle: carousel_items
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -14,7 +14,7 @@ bundle: highlight
 label: 'Image position'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: right

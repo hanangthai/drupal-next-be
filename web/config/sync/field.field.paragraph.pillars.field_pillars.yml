@@ -12,7 +12,7 @@ id: paragraph.pillars.field_pillars
 field_name: field_pillars
 entity_type: paragraph
 bundle: pillars
-label: Pillars
+label: 'Pillar items'
 description: ''
 required: true
 translatable: false
@@ -25,6 +25,18 @@ settings:
       pillar_items: pillar_items
     negate: 0
     target_bundles_drag_drop:
+      carousel:
+        weight: 8
+        enabled: false
+      carousel_items:
+        weight: 9
+        enabled: false
+      core_values:
+        weight: 10
+        enabled: false
+      highlight:
+        weight: 11
+        enabled: false
       pillar_items:
         weight: 4
         enabled: true
